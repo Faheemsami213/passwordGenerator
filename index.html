@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Password Genrator</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+                <link rel="stylesheet" href="index.css">
+            </head>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;300&family=Lobster&family=Rubik:wght@500&family=Source+Sans+Pro:wght@200;400&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <body>
+        <div class="container">
+            <h1>Genrate a <br/>
+                <span>
+                    random password
+                </span>
+            </h1>
+            <p>Never use an insecure password again .</p>
+            <div>
+                <button onclick="genratePassword()"> Genrate Password</button>
+                <input id="getLength" type="number" placeholder="Length">
+            </div>
+            <div id ="renderPassword">
+                <p id="pass_1" class="password"></p>
+                <p id="pass_2" class="password"></p>
+                <p id="pass_3" class="password"></p>
+                <p id="pass_4" class="password"></p>
+            <div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
